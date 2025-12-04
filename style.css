@@ -624,6 +624,11 @@
             background: linear-gradient(135deg, var(--accent-wine), #fea3cc);
             color: white;
         }
+      .contact-section .section-title {
+    color: white !important;
+    text-align: center;
+}
+
 
         .contact-container {
             display: grid;
