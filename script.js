@@ -4,6 +4,7 @@
         const mainHeader = document.getElementById('mainHeader');
         const navItems = document.querySelectorAll('.nav-links a');
         
+        
         hamburger.addEventListener('click', () => {
             hamburger.classList.toggle('active');
             navLinks.classList.toggle('active');
@@ -15,6 +16,7 @@
                 document.body.style.overflow = 'auto';
             }
         });
+        
         
         // Close mobile menu when clicking on a link
         navItems.forEach(item => {
@@ -202,3 +204,4 @@
                 document.body.style.overflow = 'auto';
             }
         });
+        
